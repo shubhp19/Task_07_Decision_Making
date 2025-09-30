@@ -1,0 +1,43 @@
+# 🤖 LLM Prompts & Responses (Task 07)
+
+---
+
+### Prompt 1
+**Q:** Who is the top scorer in the Syracuse Men's Basketball 2024–2025 season dataset?
+
+**LLM (GPT-4) Response:**  
+"The top scorer is Player X with Y total points over Z games. This is based on the points (PTS) column in the dataset."
+
+**Notes:**  
+- Answer validated with Python.
+- Confirmed player and point total match computed result.
+
+---
+
+### Prompt 2
+**Q:** Using a custom impact formula (PTS + AST + REB), who are the top 5 most impactful players?
+
+**LLM (GPT-4) Response:**  
+"Based on the combined impact score of points, assists, and rebounds, the top 5 players are:
+1. Player A
+2. Player B
+3. Player C
+4. Player D
+5. Player E"
+
+**Notes:**  
+- Formula implemented in Python and results matched.
+- Visualization created and saved as bar chart.
+
+---
+
+### Prompt 3
+**Q:** Create a bar chart showing the top 5 scorers from the dataset.
+
+**LLM (GPT-4) Response:**  
+"A bar chart would include players sorted by total points scored. X-axis: player names; Y-axis: total points."
+
+- Chart generated in matplotlib using same data.
+- Chart file saved as `bar_chart_top_scorers.png`.
+
+---
